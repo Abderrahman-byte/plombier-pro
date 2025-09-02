@@ -108,7 +108,7 @@ export default function Home() {
                                     className="btn-outline text-foreground-light border-foreground-light hover:bg-foreground-light hover:text-primary flex items-center justify-center space-x-2 text-center"
                                 >
                                     <PhoneCall className="w-4 h-4" />
-                                    <span>Demandez un rappel gratuit</span>
+                                    <span>Demandez un appel</span>
                                 </Link>
                             </div>
                         </div>
@@ -250,7 +250,7 @@ export default function Home() {
                             className="btn-outline text-foreground-light border-foreground-light hover:bg-foreground-light hover:text-primary flex items-center justify-center space-x-2 text-center"
                         >
                             <PhoneCall className="w-4 h-4" />
-                            <span>Demandez un rappel gratuit</span>
+                            <span>Demandez un appel</span>
                         </Link>
                     </div>
                 </div>

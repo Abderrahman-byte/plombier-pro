@@ -123,8 +123,7 @@ const Contact = () => {
                         {/* Contact Form */}
                         <div className="lg:col-span-2">
                             <div className="bg-card border border-border rounded-lg p-8 shadow-medium">
-                                <h2 className="heading-md mb-6">Demander un devis gratuit</h2>
-
+                                <h2 className="heading-md mb-6">Demandez un appel</h2>
                                 <LeadFrom />
                             </div>
                         </div>

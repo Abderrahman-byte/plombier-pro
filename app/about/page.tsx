@@ -224,7 +224,7 @@ const About = () => {
                             href="/contact"
                             className="btn-outline border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
                         >
-                            Demander un devis
+                            Demandez un appel
                         </Link>
                     </div>
                 </div>
