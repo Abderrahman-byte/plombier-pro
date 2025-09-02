@@ -162,7 +162,7 @@ export default function Services() {
                                                     {service.fullDescription}
                                                 </p>
                                                 <a
-                                                    href="tel:+3221234567"
+                                                    href="tel:+32467601247"
                                                     className="btn-cta inline-flex items-center space-x-2"
                                                     onClick={(e) => e.stopPropagation()}
                                                 >
@@ -207,11 +207,11 @@ export default function Services() {
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <a
-                                href="tel:+3221234567"
+                                href="tel:+32467601247"
                                 className="bg-white text-accent hover:bg-gray-100 px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 shadow-lg hover:shadow-xl inline-flex items-center justify-center space-x-2"
                             >
                                 <Phone className="w-5 h-5" />
-                                <span>+32 2 123 45 67</span>
+                                <span>+32 467 60 12 47</span>
                             </a>
                         </div>
                     </div>

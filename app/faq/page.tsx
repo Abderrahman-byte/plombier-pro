@@ -126,7 +126,7 @@ const FAQ = () => {
                             </p>
                             <div className="flex flex-col sm:flex-row gap-4 justify-center">
                                 <a
-                                    href="tel:+3221234567"
+                                    href="tel:+32467601247"
                                     className="btn-cta inline-flex items-center justify-center space-x-2"
                                 >
                                     <Phone className="w-4 h-4" />

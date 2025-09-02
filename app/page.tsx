@@ -97,11 +97,11 @@ export default function Home() {
                             {/* CTAs */}
                             <div className="flex flex-col sm:flex-row gap-4">
                                 <a
-                                    href="tel:+3221234567"
+                                    href="tel:+32467601247"
                                     className="btn-cta flex items-center justify-center space-x-2 text-center"
                                 >
                                     <Phone className="w-5 h-5" />
-                                    <span>Appeler maintenant</span>
+                                    <span className="text-sm">Appeler maintenant</span>
                                 </a>
                                 <Link
                                     href="/contact"
@@ -238,15 +238,19 @@ export default function Home() {
                         plomberie.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                        <a href="tel:+3221234567" className="btn-cta">
-                            <Phone className="w-5 h-5 mr-2" />
-                            Appeler maintenant
+                        <a
+                            href="tel:+32467601247"
+                            className="btn-cta flex items-center justify-center space-x-2 text-center"
+                        >
+                            <Phone className="w-5 h-5" />
+                            <span>Appeler maintenant</span>
                         </a>
                         <Link
                             href="/contact"
-                            className="btn-outline border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
+                            className="btn-outline text-foreground-light border-foreground-light hover:bg-foreground-light hover:text-primary flex items-center justify-center space-x-2 text-center"
                         >
-                            Demander un devis gratuit
+                            <PhoneCall className="w-4 h-4" />
+                            <span>Demandez un rappel gratuit</span>
                         </Link>
                     </div>
                 </div>
