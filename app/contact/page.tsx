@@ -54,10 +54,10 @@ const Contact = () => {
                                                 Email
                                             </h3>
                                             <a
-                                                href="mailto:contact@plombierpro.be"
+                                                href="mailto:plombier.pro.001@gmail.com"
                                                 className="text-accent hover:text-accent/80 transition-colors duration-300"
                                             >
-                                                contact@plombierpro.be
+                                                plombier.pro.001@gmail.com
                                             </a>
                                             <p className="text-muted-foreground text-sm mt-1">
                                                 Réponse sous 2h en journée

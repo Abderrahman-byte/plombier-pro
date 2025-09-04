@@ -33,11 +33,11 @@ const Footer = () => {
                                     <span>+32 467 60 12 47</span>
                                 </a>
                                 <a
-                                    href="mailto:contact@plombierpro.be"
+                                    href="mailto:plombier.pro.001@gmail.com"
                                     className="flex items-center space-x-3 text-primary-foreground/80 hover:text-accent transition-colors duration-300"
                                 >
                                     <Mail className="w-4 h-4" />
-                                    <span>contact@plombierpro.be</span>
+                                    <span>plombier.pro.001@gmail.com</span>
                                 </a>
                                 <div className="flex items-center space-x-3 text-primary-foreground/80">
                                     <MapPin className="w-4 h-4" />
