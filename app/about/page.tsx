@@ -54,7 +54,7 @@ const About = () => {
             <section className="bg-gradient-hero text-foreground-light section-padding">
                 <div className="container-custom">
                     <div className="max-w-4xl mx-auto text-center">
-                        <h1 className="heading-xl text-brand-orange mb-6">À propos de PlombierPro</h1>
+                        <h1 className="heading-xl text-brand-orange mb-6">À propos de HydroPlombier</h1>
                         <p className="text-lead text-foreground-light/90">
                             Depuis plus de 15 ans, nous sommes votre partenaire de confiance pour
                             tous vos travaux de plomberie en Belgique. Notre expertise et notre
@@ -91,7 +91,7 @@ const About = () => {
                             <h2 className="heading-lg">Notre histoire</h2>
                             <div className="space-y-4 text-muted-foreground leading-relaxed">
                                 <p>
-                                    PlombierPro a été fondé en 2009 avec une mission simple : offrir
+                                    HydroPlombier a été fondé en 2009 avec une mission simple : offrir
                                     un service de plomberie professionnel, rapide et transparent à
                                     tous les habitants de Belgique.
                                 </p>

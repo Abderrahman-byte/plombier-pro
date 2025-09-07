@@ -13,7 +13,7 @@ const Footer = () => {
                                 <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center">
                                     <span className="text-white font-bold">P</span>
                                 </div>
-                                <span className="text-xl font-bold">PlombierPro</span>
+                                <span className="text-xl font-bold">HydroPlombier</span>
                             </div>
                             <p className="text-primary-foreground/80 leading-relaxed">
                                 Service de plomberie professionnel disponible 24h/24 en Belgique.
@@ -97,7 +97,7 @@ const Footer = () => {
                 <div className="border-t border-primary-foreground/20 py-6">
                     <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
                         <p className="text-sm text-primary-foreground/60">
-                            © {new Date().getFullYear()} PlombierPro Belgique. Tous droits réservés.
+                            © {new Date().getFullYear()} HydroPlombier Belgique. Tous droits réservés.
                         </p>
                     </div>
                 </div>

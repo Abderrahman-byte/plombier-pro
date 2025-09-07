@@ -10,6 +10,23 @@ export const metadata: Metadata = {
     title: siteConfig.name,
     description:
         'Plombier 24/7 — Intervention rapide. Transparence dans notre diagnostic et qualité de travail garantie.',
+    keywords: [
+        'plombier urgence',
+        'plombier urgence Bruxelles',
+        'plombier 24/7',
+        'plombier urgence près de moi',
+        'dépannage plomberie urgent',
+        'intervention plombier immédiate',
+        'plombier dépannage rapide',
+        'plombier après-heure Bruxelles',
+        'plombier nuit urgence',
+        'débouchage évier',
+    ],
+    robots: 'index, follow',
+    alternates: {
+        canonical: 'https://www.hydroplombier.com',
+    },
+    category: 'plomber',
 }
 
 export default function RootLayout({
@@ -19,7 +36,7 @@ export default function RootLayout({
 }>) {
     const jsonLd = {
         '@context': 'https://schema.org',
-        '@type': 'LocalBusiness', // or "Plumber" — LocalBusiness is safest & broadly supported
+        '@type': 'LocalBusiness',
         name: siteConfig.name,
         telephone: siteConfig.telephone,
         image: siteConfig.image,
@@ -32,9 +49,14 @@ export default function RootLayout({
             '@type': 'Country',
             name: 'Belgium',
         },
-        openingHours: siteConfig.openingHours,
         url: siteConfig.url,
         serviceType: 'Plumbing',
+        openingHoursSpecification: {
+            '@type': 'OpeningHoursSpecification',
+            dayOfWeek: siteConfig.openingDayOfWeek,
+            opens: siteConfig.openingOpens,
+            closes: siteConfig.openingCloses,
+        },
     }
 
     return (
