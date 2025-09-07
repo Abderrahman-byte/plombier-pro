@@ -27,6 +27,12 @@ export const metadata: Metadata = {
         canonical: 'https://www.hydroplombier.com',
     },
     category: 'plomber',
+    openGraph: {
+        type: 'website',
+        title: 'hydroPlombier - Plombier 24/7 — Intervention rapide',
+        images: 'https://www.hydroplombier.com/hero-plumber.jpg',
+        url: 'https://www.hydroplombier.com/',
+    },
 }
 
 export default function RootLayout({
