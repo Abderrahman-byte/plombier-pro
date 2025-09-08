@@ -1,3 +1,4 @@
+import { GoogleTagManager } from '@next/third-parties/google'
 import { Theme } from '@radix-ui/themes'
 import type { Metadata } from 'next'
 
@@ -74,6 +75,7 @@ export default function RootLayout({
                 />
             </head>
             <body>
+                <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID as string} />
                 <Theme>
                     <div className="min-h-screen flex flex-col">
                         <Header />
