@@ -207,16 +207,16 @@ export default function Home() {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         {testimonials.map((testimonial, index) => (
                             <div key={index} className="card-hover">
-                                <div className="flex items-center mb-4">
-                                    <div className="flex space-x-1">
-                                        {[...Array(testimonial.rating)].map((_, i) => (
-                                            <Star
-                                                key={i}
-                                                className="w-4 h-4 fill-accent text-accent"
-                                            />
-                                        ))}
-                                    </div>
-                                </div>
+                                {/* <div className="flex items-center mb-4"> */}
+                                {/*     <div className="flex space-x-1"> */}
+                                {/*         {[...Array(testimonial.rating)].map((_, i) => ( */}
+                                {/*             <Star */}
+                                {/*                 key={i} */}
+                                {/*                 className="w-4 h-4 fill-accent text-accent" */}
+                                {/*             /> */}
+                                {/*         ))} */}
+                                {/*     </div> */}
+                                {/* </div> */}
                                 <p className="text-foreground mb-4 italic">"{testimonial.text}"</p>
                                 <div className="text-sm text-muted-foreground">
                                     <strong>{testimonial.name}</strong> - {testimonial.city}
