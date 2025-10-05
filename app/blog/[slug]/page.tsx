@@ -26,6 +26,7 @@ export async function generateMetadata({
             title: article.title,
             description: article.description,
             url: `https://example.com/blog/${article.slug}`,
+            type: 'article',
             images: [
                 {
                     url: article.image,
