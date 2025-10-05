@@ -26,12 +26,11 @@ export const articles: Article[] = [
         date: '2025-09-15',
         category: 'Entretien',
         readTime: '5 min',
-        author: 'Martin leblanc',
+        author: 'Martin',
         excerpt:
             'Évitez les urgences et réduisez votre facture d’eau avec des vérifications simples, un entretien saisonnier et les bons réflexes.',
         content: `
             <header class="mb-6">
-                <h1 class="text-2xl md:text-3xl font-semibold leading-tight">Prévenir les fuites d’eau : guide d’entretien plomberie pour la maison</h1>
                 <p class="text-sm text-gray-600 mt-2">Évitez les urgences et réduisez votre facture d’eau avec des vérifications simples, un entretien saisonnier et les bons réflexes.</p>
             </header>
 
@@ -165,7 +164,6 @@ export const articles: Article[] = [
             'Des astuces sûres et écologiques pour déboucher et entretenir vos canalisations — alternatives aux produits chimiques, entretien régulier et signes d’alerte.',
         content: `
     <header class="mb-6">
-      <h1 class="text-2xl md:text-3xl font-semibold leading-tight">Comment déboucher et entretenir ses canalisations — méthodes efficaces et écologiques</h1>
       <p class="text-sm text-gray-600 mt-2">Des solutions pratiques, économiques et respectueuses des tuyaux pour traiter et prévenir les obstructions domestiques.</p>
     </header>
 
@@ -269,5 +267,5 @@ export const articles: Article[] = [
         category: 'Entretien',
         readTime: '6 min',
         author: 'Martin leblanc',
-    }
+    },
 ]
