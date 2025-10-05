@@ -19,8 +19,7 @@ export const articles: Article[] = [
         slug: 'prevenir-fuites-entretien-plomberie',
         title: 'Prévenir les fuites d’eau et entretenir sa plomberie',
         image: '/images/serious-technician-plumber-uniform-checking-600nw-2131415245.webp',
-        titleSEO:
-            'Prévenir les fuites d’eau : guide d’entretien maison | HydroPlombier',
+        titleSEO: 'Prévenir les fuites d’eau : guide d’entretien maison | HydroPlombier',
         description:
             'Évitez les urgences et réduisez votre facture d’eau grâce à des vérifications simples, un entretien saisonnier et les bons réflexes de plomberie.',
         date: '2025-09-15',
@@ -156,8 +155,7 @@ export const articles: Article[] = [
         id: '2',
         slug: 'deboucher-canalisations-methodes-ecologiques',
         title: 'Comment déboucher et entretenir ses canalisations — méthodes efficaces et écologiques',
-        titleSEO:
-            'Déboucher les canalisations : méthodes et prévention | HydroPlombier',
+        titleSEO: 'Déboucher les canalisations : méthodes et prévention | HydroPlombier',
         description:
             'Découvrez des astuces sûres et écologiques pour déboucher et entretenir vos canalisations, avec alternatives chimiques, entretien régulier et alertes.',
         excerpt:
